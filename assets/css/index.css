@@ -3,24 +3,27 @@
   font-size: 12px;
 }
 
-.iconfont {
-  margin-right: 8px;
+.iconfont,
+.layui-icon {
+  margin-right: 6px;
 }
 
 .layui-icon {
-  margin-right: 8px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
+/* 铺平页面 */
 iframe {
   width: 100%;
   height: 100%;
 }
 
+/* 隐藏滚动条 */
 .layui-body {
   overflow: hidden;
 }
 
+/* 清除所有 a 链接的动画 */
 a {
   transition: none !important;
 }
@@ -30,6 +33,7 @@ a {
   line-height: 60px;
   text-align: center;
   font-size: 12px;
+  /*禁止用户被选中*/
   user-select: none;
 }
 
@@ -48,15 +52,11 @@ a {
   height: 40px;
   background-color: #009688;
   border-radius: 50%;
-  line-height: 40px;
   text-align: center;
+  line-height: 40px;
   font-size: 20px;
   color: #fff;
   position: relative;
   top: 4px;
-  margin-right: 10px;
-}
-
-.layui-nav-item a {
-  font-size: 12px;
+  margin-right: 8px;
 }
